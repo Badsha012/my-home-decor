@@ -1,10 +1,21 @@
 import React from 'react';
 import { useRouteError } from 'react-router';
+import Navbar from '../Components/Navbar';
+import Footer from '../Components/Footer';
 
 const Errorpage = () => {
+
  
   const error = useRouteError();
-  return <div>{error.message}</div>;
+
+    return< >
+    <Navbar></Navbar>
+   <div>{error.message}</div>;
+   <Footer></Footer>
+
+    </>
+
+
 
 };
 
