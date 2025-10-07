@@ -7,10 +7,10 @@ const Layouts = () => {
     return (
         <div>
             <Navbar></Navbar>
-
-            <h1>Content</h1>
+             <Outlet></Outlet>
+            
             <Footer></Footer>
-            <Outlet></Outlet>
+           
         </div>
     );
 };
